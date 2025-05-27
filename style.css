@@ -1,0 +1,44 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('../images/paris.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+
+header, footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1em;
+  text-align: center;
+}
+
+.slogan {
+  font-style: italic;
+  font-size: 1.2em;
+  color: #ccc;
+}
+
+main {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2em;
+  max-width: 600px;
+  margin: 2em auto;
+  border-radius: 10px;
+}
+
+input, button {
+  width: 100%;
+  padding: 1em;
+  margin: 0.5em 0;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  background-color: gold;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}

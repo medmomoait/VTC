@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>World Shuttle Prestige</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>World Shuttle Prestige</h1>
+    <p class="slogan">Votre navette prestige vers les aéroports parisiens</p>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Réservez votre chauffeur VTC</h2>
+      <form id="booking-form">
+        <input type="text" placeholder="Lieu de départ" required />
+        <input type="text" placeholder="Destination" required />
+        <input type="date" required />
+        <input type="time" required />
+        <input type="number" placeholder="Nombre de passagers" required />
+        <button type="submit">Réserver - 60€</button>
+      </form>
+    </section>
+
+    <section class="payment">
+      <h3>Paiement sécurisé</h3>
+      <button id="stripe-pay">Payer par carte (Stripe)</button>
+      <div id="paypal-button-container"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 World Shuttle Prestige. Tous droits réservés.</p>
+  </footer>
+
+  <script src="https://js.stripe.com/v3/"></script>
+  <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=EUR"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
